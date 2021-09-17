@@ -50,7 +50,7 @@ exports[`renders correctly H1 green 1`] = `
       },
       undefined,
       Object {
-        "color": "#4BB377",
+        "color": "#87c29d",
       },
     ]
   }
@@ -109,7 +109,7 @@ exports[`renders correctly H2 blue50 1`] = `
       },
       undefined,
       Object {
-        "color": "#3957D0",
+        "color": "#9CABE8",
       },
     ]
   }
@@ -151,7 +151,7 @@ exports[`renders correctly H2 green 1`] = `
       },
       undefined,
       Object {
-        "color": "#4BB377",
+        "color": "#87c29d",
       },
     ]
   }
@@ -252,7 +252,7 @@ exports[`renders correctly H3 green 1`] = `
       },
       undefined,
       Object {
-        "color": "#4BB377",
+        "color": "#87c29d",
       },
     ]
   }
@@ -290,7 +290,7 @@ exports[`renders correctly Link 1`] = `
     style={
       Array [
         Object {
-          "color": "#4BB377",
+          "color": "#87c29d",
           "fontFamily": "Inter-Medium",
           "fontSize": 18,
           "textDecorationLine": "underline",
@@ -351,7 +351,7 @@ exports[`renders correctly Primary blue 1`] = `
       },
       undefined,
       Object {
-        "color": "#3957D0",
+        "color": "#9CABE8",
       },
     ]
   }
@@ -435,7 +435,7 @@ exports[`renders correctly Primary green 1`] = `
       },
       undefined,
       Object {
-        "color": "#4BB377",
+        "color": "#87c29d",
       },
     ]
   }
@@ -599,7 +599,7 @@ exports[`renders correctly Secondary green 1`] = `
       },
       undefined,
       Object {
-        "color": "#4BB377",
+        "color": "#87c29d",
       },
     ]
   }
@@ -805,7 +805,7 @@ exports[`renders correctly Tertiary green 1`] = `
       },
       undefined,
       Object {
-        "color": "#4BB377",
+        "color": "#87c29d",
       },
     ]
   }

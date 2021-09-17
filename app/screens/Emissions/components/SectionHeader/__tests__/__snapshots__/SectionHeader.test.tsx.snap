@@ -6,7 +6,7 @@ exports[`SectionHeader should render when co2value equals 0 1`] = `
   style={
     Object {
       "backgroundColor": "#FFFFFF",
-      "borderBottomColor": "#DCF0E5",
+      "borderBottomColor": "#e7f3eb",
       "borderBottomWidth": 2,
       "elevation": 0,
       "flexDirection": "row",
@@ -34,7 +34,7 @@ exports[`SectionHeader should render when co2value equals 0 1`] = `
     December 2020
   </Text.Primary>
   <Ionicons
-    color="#3957D0"
+    color="#9CABE8"
     name="ios-chevron-forward-outline"
     size={24}
     style={Object {}}
@@ -48,7 +48,7 @@ exports[`SectionHeader should render when monthlyCarbonBudget and co2value equal
   style={
     Object {
       "backgroundColor": "#FFFFFF",
-      "borderBottomColor": "#DCF0E5",
+      "borderBottomColor": "#e7f3eb",
       "borderBottomWidth": 2,
       "elevation": 0,
       "flexDirection": "row",
@@ -76,7 +76,7 @@ exports[`SectionHeader should render when monthlyCarbonBudget and co2value equal
     December 2020
   </Text.Primary>
   <Ionicons
-    color="#3957D0"
+    color="#9CABE8"
     name="ios-chevron-forward-outline"
     size={24}
     style={Object {}}
@@ -90,7 +90,7 @@ exports[`SectionHeader should render when monthlyCarbonBudget equals 0 1`] = `
   style={
     Object {
       "backgroundColor": "#FFFFFF",
-      "borderBottomColor": "#DCF0E5",
+      "borderBottomColor": "#e7f3eb",
       "borderBottomWidth": 2,
       "elevation": 0,
       "flexDirection": "row",
@@ -118,7 +118,7 @@ exports[`SectionHeader should render when monthlyCarbonBudget equals 0 1`] = `
     December 2020
   </Text.Primary>
   <Ionicons
-    color="#3957D0"
+    color="#9CABE8"
     name="ios-chevron-forward-outline"
     size={24}
     style={Object {}}
@@ -132,7 +132,7 @@ exports[`SectionHeader should render when user has budget below 1% 1`] = `
   style={
     Object {
       "backgroundColor": "#FFFFFF",
-      "borderBottomColor": "#DCF0E5",
+      "borderBottomColor": "#e7f3eb",
       "borderBottomWidth": 2,
       "elevation": 0,
       "flexDirection": "row",
@@ -160,7 +160,7 @@ exports[`SectionHeader should render when user has budget below 1% 1`] = `
     December 2020
   </Text.Primary>
   <Ionicons
-    color="#3957D0"
+    color="#9CABE8"
     name="ios-chevron-forward-outline"
     size={24}
     style={Object {}}
@@ -174,7 +174,7 @@ exports[`SectionHeader should render when user is below budget 1`] = `
   style={
     Object {
       "backgroundColor": "#FFFFFF",
-      "borderBottomColor": "#DCF0E5",
+      "borderBottomColor": "#e7f3eb",
       "borderBottomWidth": 2,
       "elevation": 0,
       "flexDirection": "row",
@@ -202,7 +202,7 @@ exports[`SectionHeader should render when user is below budget 1`] = `
     December 2020
   </Text.Primary>
   <Ionicons
-    color="#3957D0"
+    color="#9CABE8"
     name="ios-chevron-forward-outline"
     size={24}
     style={Object {}}
@@ -216,7 +216,7 @@ exports[`SectionHeader should render when user is over budget 1`] = `
   style={
     Object {
       "backgroundColor": "#FFFFFF",
-      "borderBottomColor": "#DCF0E5",
+      "borderBottomColor": "#e7f3eb",
       "borderBottomWidth": 2,
       "elevation": 0,
       "flexDirection": "row",
@@ -244,7 +244,7 @@ exports[`SectionHeader should render when user is over budget 1`] = `
     December 2020
   </Text.Primary>
   <Ionicons
-    color="#3957D0"
+    color="#9CABE8"
     name="ios-chevron-forward-outline"
     size={24}
     style={Object {}}

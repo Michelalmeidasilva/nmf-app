@@ -31,9 +31,9 @@ exports[`MonthlyBudgetScreen renders correctly 1`] = `
         disabled={false}
         enabled={true}
         inverted={false}
-        maximumTrackTintColor="#CED4DA"
+        maximumTrackTintColor="#F9F9F9"
         maximumValue={1000}
-        minimumTrackTintColor="#4BB377"
+        minimumTrackTintColor="#87c29d"
         minimumValue={0}
         onChange={null}
         onRNCSliderSlidingComplete={[Function]}
@@ -61,7 +61,7 @@ exports[`MonthlyBudgetScreen renders correctly 1`] = `
             "width": 1,
           }
         }
-        thumbTintColor="#4BB377"
+        thumbTintColor="#87c29d"
         value={0}
       />
       <Text.Primary
@@ -90,7 +90,7 @@ exports[`MonthlyBudgetScreen renders correctly 1`] = `
           >
             Average monthly emissions per capita in a sample of countries 
             <Ionicons
-              color="#4BB377"
+              color="#87c29d"
               name="md-information-circle"
               onPress={[Function]}
               size={26}
