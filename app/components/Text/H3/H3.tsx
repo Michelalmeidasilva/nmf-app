@@ -9,14 +9,16 @@ interface Props {
   children: string | React.ReactElement;
   darkGray?: boolean;
   lightGray?: boolean;
-  green?: boolean;
-  blue?: boolean;
+  primary?: boolean;
   center?: boolean;
+  black70?: boolean;
+  black60?: boolean;
+  black?: boolean;
 }
 
 export default function H1(props: Props): React.ReactElement {
   const customStyle = [styles.default, props.style];
-  const { darkGray, lightGray, green, blue, center } = props;
+  const { darkGray, lightGray, primary, center, black, black70, black60 } = props;
 
   if (darkGray) {
     customStyle.push(mainStyle.darkGray);
@@ -26,16 +28,28 @@ export default function H1(props: Props): React.ReactElement {
     customStyle.push(mainStyle.lightGray);
   }
 
-  if (green) {
-    customStyle.push(mainStyle.green);
+  if (primary) {
+    customStyle.push(mainStyle.primary);
   }
 
-  if (blue) {
-    customStyle.push(mainStyle.blue50);
+  if (primary) {
+    customStyle.push(mainStyle.primary);
   }
 
   if (center) {
     customStyle.push(mainStyle.center);
+  }
+
+  if (black70) {
+    customStyle.push(mainStyle.black70);
+  }
+
+  if (black60) {
+    customStyle.push(mainStyle.black60);
+  }
+
+  if (black) {
+    customStyle.push(mainStyle.black);
   }
 
   return <Text {...props} style={customStyle} />;
