@@ -6,7 +6,9 @@ import { TransportType } from "carbon-footprint";
 import DateTimePickerModal from "react-native-modal-datetime-picker";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 import { useRoute } from "@react-navigation/core";
+import { Ionicons } from "@expo/vector-icons";
 
+import { Colors } from "style";
 import { Text, TextInput } from "components";
 import { userPreferences } from "ducks";
 import { EmissionType, EmissionPayload, EmissionModelType } from "interfaces";
@@ -276,14 +278,17 @@ const AddEmissionScreen = ({ locale = "", language = "" }: LocalizationContextPr
       <View style={styles.textContainer}>
         <Text.H3 black>{t("ADD_EMISSION_SCREEN_DATE")}</Text.H3>
         <View style={styles.dateContainer}>
-          <TouchableOpacity style={{ flexDirection: "row" }} onPress={showDatePicker}>
-            <Text.Primary black60 bold>
+          <TouchableOpacity style={styles.rowContainer} onPress={showDatePicker}>
+            <Ionicons
+              style={styles.dateSeparator}
+              name="calendar"
+              size={20}
+              color={Colors.secondary}
+            />
+            <Text.Primary style={styles.dateSeparator} black60 bold>
               {creationDate.locale(getLocaleForMoment(language)).format("dddd Do MMMM YYYY")}
-              {" - "}
             </Text.Primary>
-            <Text.Primary primary bold>
-              {t("ADD_EMISSION_SCREEN_CHANGE")}
-            </Text.Primary>
+            <Ionicons name="create" size={24} color={Colors.primary} />
           </TouchableOpacity>
         </View>
       </View>
