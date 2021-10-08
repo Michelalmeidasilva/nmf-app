@@ -12,7 +12,7 @@ interface Props {
   red?: boolean;
   bold?: boolean;
   white?: boolean;
-  green?: boolean;
+  primary?: boolean;
   center?: boolean;
   lightWeightText?: boolean;
   numberOfLines?: number;
@@ -20,7 +20,17 @@ interface Props {
 
 export default function Tertiary(props: Props): React.ReactElement {
   const customStyle = [styles.default, props.style];
-  const { white, green, darkGray, lightGray, bold, children, center, lightWeightText, red } = props;
+  const {
+    white,
+    primary,
+    darkGray,
+    lightGray,
+    bold,
+    children,
+    center,
+    lightWeightText,
+    red,
+  } = props;
 
   if (darkGray) {
     customStyle.push(mainStyle.darkGray);
@@ -30,8 +40,8 @@ export default function Tertiary(props: Props): React.ReactElement {
     customStyle.push(mainStyle.lightGray);
   }
 
-  if (green) {
-    customStyle.push(mainStyle.green);
+  if (primary) {
+    customStyle.push(mainStyle.primary);
   }
 
   if (white) {
