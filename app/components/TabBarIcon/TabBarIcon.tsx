@@ -10,6 +10,6 @@ interface Props {
 
 export default function TabBarIcon(props: Props): ReactElement {
   return (
-    <Ionicons name={props.name} size={26} color={props.focused ? Colors.primary : Colors.grey40} />
+    <Ionicons name={props.name} size={26} color={props.focused ? Colors.primary : Colors.black60} />
   );
 }

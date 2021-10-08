@@ -46,11 +46,11 @@ const BottomTabNavigator = (): React.ReactElement => {
       initialRouteName={"EmissionsNavigator"}
       tabBarOptions={{
         activeTintColor: Colors.primary,
-        inactiveTintColor: Colors.grey40,
+        inactiveTintColor: Colors.black60,
         style: {
           backgroundColor: Colors.white,
           borderTopWidth: 2,
-          borderTopColor: Colors.primary,
+          borderTopColor: Colors.grey10,
           paddingBottom: bottom / 2 + 6,
         },
       }}
