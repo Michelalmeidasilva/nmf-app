@@ -236,7 +236,7 @@ const AddEmissionScreen = ({ locale = "", language = "" }: LocalizationContextPr
       {emissionModelType ? (
         <View style={styles.textContainer}>
           <Text.H2 style={styles.text}>{emissionType}</Text.H2>
-          <Text.Primary lightGray style={styles.text}>
+          <Text.Primary black70 style={styles.text}>
             {ui.getTranslationEmissionModelType(emissionModelType)}
           </Text.Primary>
         </View>
@@ -274,14 +274,14 @@ const AddEmissionScreen = ({ locale = "", language = "" }: LocalizationContextPr
       />
 
       <View style={styles.textContainer}>
-        <Text.H3>{t("ADD_EMISSION_SCREEN_DATE")}</Text.H3>
+        <Text.H3 black>{t("ADD_EMISSION_SCREEN_DATE")}</Text.H3>
         <View style={styles.dateContainer}>
           <TouchableOpacity style={{ flexDirection: "row" }} onPress={showDatePicker}>
-            <Text.Primary lightGray>
+            <Text.Primary black60 bold>
               {creationDate.locale(getLocaleForMoment(language)).format("dddd Do MMMM YYYY")}
+              {" - "}
             </Text.Primary>
-            <Text.Primary lightGray>{" - "}</Text.Primary>
-            <Text.Primary bold green>
+            <Text.Primary primary bold>
               {t("ADD_EMISSION_SCREEN_CHANGE")}
             </Text.Primary>
           </TouchableOpacity>
