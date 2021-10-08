@@ -16,6 +16,7 @@ interface Props {
   center?: boolean;
   lightWeightText?: boolean;
   numberOfLines?: number;
+  black70: boolean;
 }
 
 export default function Tertiary(props: Props): React.ReactElement {
@@ -30,6 +31,7 @@ export default function Tertiary(props: Props): React.ReactElement {
     center,
     lightWeightText,
     red,
+    black70,
   } = props;
 
   if (darkGray) {
@@ -44,6 +46,9 @@ export default function Tertiary(props: Props): React.ReactElement {
     customStyle.push(mainStyle.primary);
   }
 
+  if (black70) {
+    customStyle.push(mainStyle.black70);
+  }
   if (white) {
     customStyle.push(mainStyle.white);
   }

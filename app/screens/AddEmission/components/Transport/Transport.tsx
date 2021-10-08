@@ -58,7 +58,12 @@ const Transport: React.FC<Props> = ({
         <Text.H3 black style={styles.miniHeader}>
           {t("ADD_EMISSION_SCREEN_DISTANCE")}
         </Text.H3>
-        <Text.Primary black70>{Math.round(sliderValue) + " kilometer(s)"}</Text.Primary>
+        <View style={styles.rowContainer}>
+          <Text.Primary black70 bold>
+            {Math.round(sliderValue)}
+          </Text.Primary>
+          <Text.Primary black70> kilometer(s)</Text.Primary>
+        </View>
       </View>
     );
   };
@@ -92,10 +97,9 @@ const Transport: React.FC<Props> = ({
                   : sliderValue * 1000 * transport[emissionModelType]
               }
               maximumFractionDigits={2}
-            />
+            />{" "}
           </Text.H3>
-
-          <Text.Primary black70> kgCO2eq</Text.Primary>
+          <Text.Primary black70>kgCO2eq</Text.Primary>
         </View>
       </View>
     </>

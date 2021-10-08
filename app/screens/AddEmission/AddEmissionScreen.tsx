@@ -237,7 +237,7 @@ const AddEmissionScreen = ({ locale = "", language = "" }: LocalizationContextPr
     <KeyboardAwareScrollView style={styles.container}>
       {emissionModelType ? (
         <View style={styles.textContainer}>
-          <Text.H2 style={styles.text}>{emissionType}</Text.H2>
+          <Text.H3 style={styles.text}>{emissionType}</Text.H3>
           <Text.Primary black70 style={styles.text}>
             {ui.getTranslationEmissionModelType(emissionModelType)}
           </Text.Primary>

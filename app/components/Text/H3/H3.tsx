@@ -6,7 +6,7 @@ import mainStyle from "../styles";
 
 interface Props {
   style?: StyleProp<TextStyle>;
-  children: string | React.ReactElement;
+  children: React.ReactNode;
   darkGray?: boolean;
   lightGray?: boolean;
   primary?: boolean;
@@ -14,11 +14,12 @@ interface Props {
   black70?: boolean;
   black60?: boolean;
   black?: boolean;
+  bold?: boolean;
 }
 
 export default function H1(props: Props): React.ReactElement {
   const customStyle = [styles.default, props.style];
-  const { darkGray, lightGray, primary, center, black, black70, black60 } = props;
+  const { darkGray, lightGray, primary, center, black, black70, black60, bold } = props;
 
   if (darkGray) {
     customStyle.push(mainStyle.darkGray);
@@ -50,6 +51,10 @@ export default function H1(props: Props): React.ReactElement {
 
   if (black) {
     customStyle.push(mainStyle.black);
+  }
+
+  if (bold) {
+    customStyle.push(mainStyle.bold);
   }
 
   return <Text {...props} style={customStyle} />;
