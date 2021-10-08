@@ -30,7 +30,7 @@ exports[`EmissionListItem renders correctly if mitigated 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "#e7f3eb",
+            "backgroundColor": "#DCF0E5",
             "borderRadius": 17,
             "height": 34,
             "position": "absolute",
@@ -39,7 +39,7 @@ exports[`EmissionListItem renders correctly if mitigated 1`] = `
         }
       />
       <Ionicons
-        color="#87c29d"
+        color="#4BB377"
         name="md-nutrition"
         size={22}
         style={
@@ -86,7 +86,7 @@ exports[`EmissionListItem renders correctly if mitigated 1`] = `
            • 
         </Text.Tertiary>
         <Text.Tertiary
-          green={true}
+          primary={true}
         >
           Offset
         </Text.Tertiary>

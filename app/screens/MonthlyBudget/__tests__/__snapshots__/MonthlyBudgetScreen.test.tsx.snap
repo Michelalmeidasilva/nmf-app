@@ -33,7 +33,7 @@ exports[`MonthlyBudgetScreen renders correctly 1`] = `
         inverted={false}
         maximumTrackTintColor="#F9F9F9"
         maximumValue={1000}
-        minimumTrackTintColor="#87c29d"
+        minimumTrackTintColor="#4BB377"
         minimumValue={0}
         onChange={null}
         onRNCSliderSlidingComplete={[Function]}
@@ -61,11 +61,11 @@ exports[`MonthlyBudgetScreen renders correctly 1`] = `
             "width": 1,
           }
         }
-        thumbTintColor="#87c29d"
+        thumbTintColor="#4BB377"
         value={0}
       />
       <Text.Primary
-        lightGray={true}
+        secondary={true}
       >
         NaN kg CO2eq
       </Text.Primary>
@@ -90,7 +90,7 @@ exports[`MonthlyBudgetScreen renders correctly 1`] = `
           >
             Average monthly emissions per capita in a sample of countries 
             <Ionicons
-              color="#87c29d"
+              color="#4BB377"
               name="md-information-circle"
               onPress={[Function]}
               size={26}
@@ -201,7 +201,7 @@ exports[`MonthlyBudgetScreen renders correctly 1`] = `
             If you wish to respect the Paris agreement (to keep the rise in global average temperature below 2 degrees), set your monthly budget at
             <Text.Secondary
               bold={true}
-              darkGray={true}
+              primary={true}
             >
                166 kg CO2
             </Text.Secondary>

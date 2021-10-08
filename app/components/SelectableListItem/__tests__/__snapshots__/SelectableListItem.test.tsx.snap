@@ -12,8 +12,8 @@ exports[`<SelectableListItem /> render 1`] = `
 >
   <Text.Primary
     bold={true}
-    green={true}
     numberOfLines={1}
+    primary={true}
     style={
       Object {
         "paddingVertical": 20,
@@ -23,7 +23,7 @@ exports[`<SelectableListItem /> render 1`] = `
     France
   </Text.Primary>
   <Ionicons
-    color="#87c29d"
+    color="#4BB377"
     name="md-checkmark"
     size={26}
     style={
@@ -47,8 +47,8 @@ exports[`<SelectableListItem /> render if not selected 1`] = `
 >
   <Text.Primary
     bold={true}
-    green={true}
     numberOfLines={1}
+    primary={true}
     style={
       Object {
         "paddingVertical": 20,
@@ -58,7 +58,7 @@ exports[`<SelectableListItem /> render if not selected 1`] = `
     France
   </Text.Primary>
   <Ionicons
-    color="#87c29d"
+    color="#4BB377"
     name="md-checkmark"
     size={26}
     style={

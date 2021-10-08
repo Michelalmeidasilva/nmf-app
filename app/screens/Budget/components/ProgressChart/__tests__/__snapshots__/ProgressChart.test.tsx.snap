@@ -5,7 +5,7 @@ exports[`ProgressChart renders correctly 1`] = `
   style={
     Object {
       "backgroundColor": "#FFFFFF",
-      "borderColor": "#e7f3eb",
+      "borderColor": "#DCF0E5",
       "borderRadius": 14,
       "borderWidth": 2,
       "flex": 1,

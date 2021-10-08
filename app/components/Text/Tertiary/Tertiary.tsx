@@ -16,7 +16,7 @@ interface Props {
   center?: boolean;
   lightWeightText?: boolean;
   numberOfLines?: number;
-  black70: boolean;
+  black70?: boolean;
 }
 
 export default function Tertiary(props: Props): React.ReactElement {

@@ -7,7 +7,7 @@ exports[`<MonthlyEmissions /> render 1`] = `
       style={
         Object {
           "backgroundColor": "#FFFFFF",
-          "borderBottomColor": "#e7f3eb",
+          "borderBottomColor": "#DCF0E5",
           "borderBottomWidth": 2,
           "elevation": 0,
           "flexDirection": "row",
@@ -30,8 +30,8 @@ exports[`<MonthlyEmissions /> render 1`] = `
         20.08 kgCO2eq
       </Text.Primary>
       <Text.Secondary
-        green={true}
         orange={false}
+        primary={true}
       >
         10 % of budget
       </Text.Secondary>
@@ -100,7 +100,7 @@ exports[`<MonthlyEmissions /> render 1`] = `
         style={
           Object {
             "backgroundColor": "#FFFFFF",
-            "borderBottomColor": "#e7f3eb",
+            "borderBottomColor": "#DCF0E5",
             "borderBottomWidth": 2,
             "elevation": 0,
             "flexDirection": "row",
@@ -123,8 +123,8 @@ exports[`<MonthlyEmissions /> render 1`] = `
           20.08 kgCO2eq
         </Text.Primary>
         <Text.Secondary
-          green={true}
           orange={false}
+          primary={true}
         >
           10 % of budget
         </Text.Secondary>
